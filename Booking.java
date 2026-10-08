@@ -11,6 +11,7 @@ public class Booking {
     System.out.println("4. The Spider-Man");
     System.out.println();
     System.out.println("Please select the movie you want to book (enter the number mapped above to the movie)");
+    System.out.println("To exit at any point , press 0 to exit");
     int choice = sc.nextInt();
     switch (choice) {
       case 1:
@@ -44,4 +45,5 @@ public class Booking {
   System.out.println("Please come again");
   System.out.println("==================================================================================================");
  }
-}
+ }
+
